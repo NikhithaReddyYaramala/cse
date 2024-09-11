@@ -3,7 +3,7 @@ agent any
 stages{
     stage('build and test'){
         steps{
-            echo"Build and test successful"!
+            echo"Build and test successful!"
         }
     }
     stage('generate Artifact'){
@@ -14,7 +14,7 @@ stages{
 }
 post{
     success{
-        echo"pipeline completed successfully"!
+        echo"pipeline completed successfully!"
     }
 }
 
